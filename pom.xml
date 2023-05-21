@@ -134,10 +134,9 @@
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
 	</properties>
 	<repositories>
-		<!-- Repository for other dependencies of SK's -->
 		<repository>
-			<id>sk89q-maven</id>
-			<url>https://maven.sk89q.com/repo</url>
+			<id>enginehub-maven</id>
+			<url>https://maven.enginehub.org/repo/</url>
 		</repository>
 
 		<!-- Repository for Bukkit -->
@@ -149,7 +148,7 @@
 		<!-- Other repositories -->
 		<repository>
 			<id>maven-central</id>
-			<url>https://repo1.maven.org/maven2/</url>
+			<url>https://repo.maven.apache.org/maven2/</url>
 		</repository>
 
 		<!-- Java Mail -->
